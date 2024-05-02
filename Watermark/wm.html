@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(157, 146, 253);
+            color: navy;
+        }
+        body > header,main,footer{
+            width: 100vw;
+            height: 30vh;
+            text-align: center;
+        }
+        header{
+            max-height: 100px;
+        }
+        #wm{
+            position: relative;
+            bottom: 10vh;
+            transform: rotate(-60deg);
+            z-index: 999;
+            opacity: .7;
+            font-weight: 700;
+            color: aqua;
+        }
+    </style>
+    <title>Watermark</title>
+</head>
+<body>
+    <header>My Site</header>
+    <main>
+        <p>My Work is original. Lorem ipsum
+             dolor sit amet consectetur 
+             adipisicing elit. Saepe eius 
+             neque labore voluptates itaque
+             voluptate. Recusandae voluptatum,
+             mollitia possimus odit ullam 
+             aliquid tempora blanditiis,
+             officiis molestias sit 
+             corrupti dolores tenetur!</p>
+        <div id="wm">COPYRIGHT</div>
+    </main>
+    <footer>Copyright my Site</footer>
+</body>
+</html>
